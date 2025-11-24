@@ -1,0 +1,34 @@
+id: emote
+title: "emotion experience ontology"
+github_org: uflcod
+repo: emotion-experience-ontology
+report_fail_on: None
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts: 
+  - base
+  - simple
+  - non-classified
+# import_group:
+#   products:
+#     - id: omo
+#       module_type: custom
+#     - id: go
+#       module_type: custom
+robot_java_args: '-Xmx16G'
+custom_makefile_header: |
+  ### Workflow
+  #
+  # Tasks to edit and release EMOTE.
+  #
+  # #### Edit
+  #
+  # 1. [Prepare release](prepare_release)
+  # 2. [Refresh imports](all_imports)
+  # 3. [Update repo to latest ODK](update_repo)
+create_obo_metadata: TRUE
+documentation:
+  documentation_system: mkdocs
+release_date: TRUE
