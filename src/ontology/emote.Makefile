@@ -96,64 +96,7 @@ $(IMPORTDIR)/uberon_import.owl: $(MIRRORDIR)/uberon.owl $(IMPORTDIR)/uberon_term
 		convert --format ofn \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
-$(IMPORTDIR)/pato_import.owl: $(MIRRORDIR)/pato.owl $(IMPORTDIR)/pato_terms.txt
-	@echo "*** building $@ ***"
-	$(ROBOT) \
-		filter \
-			--input $< \
-			--term-file $(word 2, $^) \
-			--select "annotations self ancestors" \
-			--axioms logical \
-			--signature true \
-			--trim true \
-		remove \
-			--select "owl:deprecated='true'^^xsd:boolean" \
-		annotate \
-			--annotate-defined-by true \
-			--ontology-iri $(URIBASE)/$(ONT)/$@ \
-			--version-iri $(URIBASE)/$(ONT)/$@ \
-		convert --format ofn \
-		--output $@.tmp.owl && mv $@.tmp.owl $@
-		
-$(IMPORTDIR)/omrse_import.owl: $(MIRRORDIR)/omrse.owl $(IMPORTDIR)/omrse_terms.txt
-	@echo "*** building $@ ***"
-	$(ROBOT) \
-		filter \
-			--input $< \
-			--term-file $(word 2, $^) \
-			--select "annotations self ancestors" \
-			--axioms logical \
-			--signature true \
-			--trim true \
-		remove \
-			--select "owl:deprecated='true'^^xsd:boolean" \
-		annotate \
-			--annotate-defined-by true \
-			--ontology-iri $(URIBASE)/$(ONT)/$@ \
-			--version-iri $(URIBASE)/$(ONT)/$@ \
-		convert --format ofn \
-		--output $@.tmp.owl && mv $@.tmp.owl $@
-
 $(IMPORTDIR)/ro_import.owl: $(MIRRORDIR)/ro.owl $(IMPORTDIR)/ro_terms.txt
-	@echo "*** building $@ ***"
-	$(ROBOT) \
-		filter \
-			--input $< \
-			--term-file $(word 2, $^) \
-			--select "annotations self ancestors" \
-			--axioms logical \
-			--signature true \
-			--trim true \
-		remove \
-			--select "owl:deprecated='true'^^xsd:boolean" \
-		annotate \
-			--annotate-defined-by true \
-			--ontology-iri $(URIBASE)/$(ONT)/$@ \
-			--version-iri $(URIBASE)/$(ONT)/$@ \
-		convert --format ofn \
-		--output $@.tmp.owl && mv $@.tmp.owl $@
-
-$(IMPORTDIR)/iao_import.owl: $(MIRRORDIR)/iao.owl $(IMPORTDIR)/iao_terms.txt
 	@echo "*** building $@ ***"
 	$(ROBOT) \
 		filter \
