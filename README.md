@@ -1,2 +1,1 @@
-# emotion-experience-ontology
-Emotion Experience Ontology
+# Emotion Experience Ontology
