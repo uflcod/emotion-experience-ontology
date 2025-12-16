@@ -7,9 +7,9 @@ Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
 
 
 Ontology(<https://w3id.org/emotion-response-ontology/emro.owl>
-Import(<https://w3id.org/emotion-response-ontology/emote/imports/go_import.owl>)
-Import(<https://w3id.org/emotion-response-ontology/emote/imports/omo_import.owl>)
-Import(<https://w3id.org/emotion-response-ontology/emote/imports/ro_import.owl>)
+Import(<https://w3id.org/emototion-experience-ontology/emro/imports/go_import.owl>)
+Import(<https://w3id.org/emototion-experience-ontology/emro/imports/omo_import.owl>)
+Import(<https://w3id.org/emototion-experience-ontology/emro/imports/ro_import.owl>)
 Annotation(<http://purl.org/dc/terms/license> <https://creativecommons.org/publicdomain/zero/1.0/>)
 Annotation(<http://purl.org/dc/terms/title> "Emotion Experience Ontology")
 
