@@ -1,5 +1,5 @@
 # ----------------------------------------
-# Makefile for emote
+# Makefile for emro
 # Generated using ontology-development-kit
 # ODK Version: v1.3.1
 # ----------------------------------------
@@ -7,7 +7,7 @@
 
 ### Workflow
 #
-# Tasks to edit and release EMOTE.
+# Tasks to edit and release EMRO.
 #
 # #### Edit
 #
@@ -22,7 +22,7 @@
 # these can be overwritten on the command line
 
 URIBASE=                    https://w3id.org/emototion-experience-ontology
-ONT=                        emote
+ONT=                        emro
 ONTBASE=                    $(URIBASE)/$(ONT)
 EDIT_FORMAT=                owl
 SRC =                       $(ONT)-edit.$(EDIT_FORMAT)
@@ -534,4 +534,4 @@ Tricks:
 endef
 export data
 
-include emote.Makefile
+include emro.Makefile

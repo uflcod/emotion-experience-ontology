@@ -11,12 +11,12 @@ Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 Prefix: idrange: <http://purl.obolibrary.org/obo/ro/idrange/>
 Prefix: owl: <http://www.w3.org/2002/07/owl#>
 
-Ontology: <https://w3id.org/emototion-experience-ontology/emote-idranges.owl>
+Ontology: <https://w3id.org/emototion-experience-ontology/emro-idranges.owl>
 
 
 Annotations: 
-    idsfor: "EMOTE",
-    idprefix: "https://w3id.org/emototion-experience-ontology/EMOTE_",
+    idsfor: "EMRO",
+    idprefix: "https://w3id.org/emototion-experience-ontology/EMRO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:

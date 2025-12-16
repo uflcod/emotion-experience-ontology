@@ -1,4 +1,4 @@
-## Customize Makefile settings for emote
+## Customize Makefile settings for emro
 ## 
 ## If you need to customize your Makefile, make
 ## changes here rather than in the main Makefile
