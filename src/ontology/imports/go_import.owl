@@ -30,6 +30,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050890>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0050896>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051179>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0051234>))
+Declaration(Class(<http://purl.obolibrary.org/obo/GO_0061744>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065007>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0065008>))
 Declaration(Class(<http://purl.obolibrary.org/obo/GO_0160269>))
@@ -458,6 +459,17 @@ AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#inSubset> <htt
 AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/GO_0051234> <https://w3id.org/emototion-experience-ontology/emote/imports/go_import.owl>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0051234> "establishment of localization")
 SubClassOf(<http://purl.obolibrary.org/obo/GO_0051234> <http://purl.obolibrary.org/obo/GO_0051179>)
+
+# Class: <http://purl.obolibrary.org/obo/GO_0061744> (motor behavior)
+
+AnnotationAssertion(Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:PARL") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "GOC:bf") Annotation(<http://www.geneontology.org/formats/oboInOwl#hasDbXref> "PMID:25318560") <http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/GO_0061744> "The specific neuromuscular movement of a single organism in response to external or internal stimuli.")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#created_by> <http://purl.obolibrary.org/obo/GO_0061744> "dph")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#creation_date> <http://purl.obolibrary.org/obo/GO_0061744> "2015-11-09T12:43:11Z")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#hasOBONamespace> <http://purl.obolibrary.org/obo/GO_0061744> "biological_process")
+AnnotationAssertion(<http://www.geneontology.org/formats/oboInOwl#id> <http://purl.obolibrary.org/obo/GO_0061744> "GO:0061744")
+AnnotationAssertion(rdfs:isDefinedBy <http://purl.obolibrary.org/obo/GO_0061744> <https://w3id.org/emototion-experience-ontology/emote/imports/go_import.owl>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/GO_0061744> "motor behavior")
+SubClassOf(<http://purl.obolibrary.org/obo/GO_0061744> <http://purl.obolibrary.org/obo/GO_0007610>)
 
 # Class: <http://purl.obolibrary.org/obo/GO_0065007> (biological regulation)
 

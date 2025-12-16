@@ -30,6 +30,7 @@ Declaration(Class(<https://w3id.org/emototion-experience-ontology/EMOTE_0000009>
 Declaration(Class(<https://w3id.org/emototion-experience-ontology/EMOTE_0000010>))
 Declaration(Class(<https://w3id.org/emototion-experience-ontology/EMOTE_0000011>))
 Declaration(Class(<https://w3id.org/emototion-experience-ontology/EMOTE_0000012>))
+Declaration(Class(<https://w3id.org/emototion-experience-ontology/**pain>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BFO_0000051>))
 Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/RO_0002353>))
 Declaration(NamedIndividual(<https://orcid.org/0000-0001-9625-1899>))
@@ -99,13 +100,15 @@ AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/emototi
 AnnotationAssertion(rdfs:label <https://w3id.org/emototion-experience-ontology/EMOTE_0000005> "sensory experience"@en)
 SubClassOf(<https://w3id.org/emototion-experience-ontology/EMOTE_0000005> <https://w3id.org/emototion-experience-ontology/EMOTE_0000001>)
 
-# Class: <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> (motoric process)
+# Class: <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> (motoric repsonse to emotion)
 
-AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "A multicellular organismal process that results in muscle contractions that move parts of the body or prevents the body from moving (e.g., freezing).")
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "A motor behavior that happens as result of emotion. The motoric repsonse includes muscle contractions that may move parts of the body or prevent the body from moving (e.g., freezing).")
 AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> <https://orcid.org/0000-0001-9625-1899>)
 AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "2025-11-24T21:02:42Z"^^xsd:dateTime)
-AnnotationAssertion(rdfs:label <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "motoric process"@en)
-SubClassOf(<https://w3id.org/emototion-experience-ontology/EMOTE_0000006> <http://purl.obolibrary.org/obo/GO_0032501>)
+AnnotationAssertion(rdfs:comment <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "Old definition:
+A multicellular organismal process that results in muscle contractions that move parts of the body or prevents the body from moving (e.g., freezing).")
+AnnotationAssertion(rdfs:label <https://w3id.org/emototion-experience-ontology/EMOTE_0000006> "motoric repsonse to emotion"@en)
+EquivalentClasses(<https://w3id.org/emototion-experience-ontology/EMOTE_0000006> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/GO_0061744> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/GO_0006936>) ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/emototion-experience-ontology/EMOTE_0000000>)))
 
 # Class: <https://w3id.org/emototion-experience-ontology/EMOTE_0000007> (physiological response to emotion)
 
@@ -159,6 +162,15 @@ AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/emototi
 AnnotationAssertion(rdfs:label <https://w3id.org/emototion-experience-ontology/EMOTE_0000012> "increased breathing rate due to emotion"@en)
 SubClassOf(<https://w3id.org/emototion-experience-ontology/EMOTE_0000012> <http://purl.obolibrary.org/obo/GO_0003016>)
 SubClassOf(<https://w3id.org/emototion-experience-ontology/EMOTE_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/emototion-experience-ontology/EMOTE_0000000>))
+
+# Class: <https://w3id.org/emototion-experience-ontology/**pain> (<https://w3id.org/emototion-experience-ontology/**pain>)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <https://w3id.org/emototion-experience-ontology/**pain> "An unpleasant sensory and emotional experience associated with, or resembling that associated with, actual or potential tissue damage.")
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <https://w3id.org/emototion-experience-ontology/**pain> <http://orcid.org/0000-0001-9625-1899>)
+AnnotationAssertion(<http://purl.org/dc/terms/created> <https://w3id.org/emototion-experience-ontology/**pain> "2025-12-05T16:59:16Z"^^xsd:dateTime)
+AnnotationAssertion(rdfs:comment <https://w3id.org/emototion-experience-ontology/**pain> "Pain is a term from the pain ontology.")
+SubClassOf(<https://w3id.org/emototion-experience-ontology/**pain> <https://w3id.org/emototion-experience-ontology/EMOTE_0000005>)
+SubClassOf(<https://w3id.org/emototion-experience-ontology/**pain> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002353> <https://w3id.org/emototion-experience-ontology/EMOTE_0000000>))
 
 
 ############################
