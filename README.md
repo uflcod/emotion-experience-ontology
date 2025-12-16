@@ -1,1 +1,1 @@
-# Emotion Experience Ontology
+# Emotion Response Ontology (EMRO)
