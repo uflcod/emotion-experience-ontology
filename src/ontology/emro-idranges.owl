@@ -16,7 +16,7 @@ Ontology: <https://w3id.org/emototion-experience-ontology/emro-idranges.owl>
 
 Annotations: 
     idsfor: "EMRO",
-    idprefix: "https://w3id.org/emototion-experience-ontology/EMRO_",
+    idprefix: "https://w3id.org/emotion-response-ontology/EMRO_",
     iddigits: 7
 
 AnnotationProperty: idprefix:
