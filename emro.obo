@@ -3,6 +3,7 @@ data-version: https://w3id.org/emototion-experience-ontology/emro/releases/2025-
 idspace: dc http://purl.org/dc/elements/1.1/ 
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
 idspace: protege http://protege.stanford.edu/plugins/owl/protege# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: https://w3id.org/emototion-experience-ontology/emro.owl
 property_value: owl:versionInfo "2025-12-17" xsd:string
@@ -312,6 +313,7 @@ synonym: "single-organism behavior" RELATED []
 xref: Wikipedia:Behavior
 is_a: GO:0032501 ! multicellular organismal process
 property_value: isDefinedBy go:import.owl
+property_value: skos:prefLabel "behavioral response to stimulus" xsd:string
 created_by: jl
 creation_date: 2012-09-20T14:06:08Z
 
@@ -424,6 +426,7 @@ subset: goslim_drosophila
 xref: Wikipedia:Cognition
 is_a: GO:0050877 ! nervous system process
 property_value: isDefinedBy go:import.owl
+property_value: skos:prefLabel "cognitive process" xsd:string
 
 [Term]
 id: GO:0051179

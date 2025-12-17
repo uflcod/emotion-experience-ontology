@@ -7,6 +7,7 @@ subsetdef: http://purl.obolibrary.org/obo/valid_for_gocam ""
 subsetdef: ro-eco ""
 subsetdef: RO:0002259 ""
 idspace: oboInOwl http://www.geneontology.org/formats/oboInOwl# 
+idspace: skos http://www.w3.org/2004/02/skos/core# 
 idspace: terms http://purl.org/dc/terms/ 
 ontology: https://w3id.org/emototion-experience-ontology/emro/emro-simple.owl
 property_value: owl:versionInfo "2025-12-17" xsd:string

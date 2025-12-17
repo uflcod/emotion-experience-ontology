@@ -8,6 +8,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://w3id.org/emototion-experience-ontology/emro/emro-base.owl">
@@ -18,7 +19,7 @@
         <terms:creator rdf:resource="https://orcid.org/0000-0002-0766-8455"/>
         <terms:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
         <terms:title>Emotion Response Ontology</terms:title>
-        <oboInOwl:date>17:12:2025 12:22</oboInOwl:date>
+        <oboInOwl:date>17:12:2025 12:28</oboInOwl:date>
         <owl:versionInfo>2025-12-17</owl:versionInfo>
     </owl:Ontology>
     
@@ -86,6 +87,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#date -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
     
 
 
@@ -161,7 +168,9 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0007610 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007610"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0007610">
+        <skos:prefLabel>behavioral response to stimulus</skos:prefLabel>
+    </owl:Class>
     
 
 
@@ -179,7 +188,9 @@
 
     <!-- http://purl.obolibrary.org/obo/GO_0050890 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050890"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0050890">
+        <skos:prefLabel>cognitive process</skos:prefLabel>
+    </owl:Class>
     
 
 
